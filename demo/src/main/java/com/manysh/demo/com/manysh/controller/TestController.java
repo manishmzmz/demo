@@ -12,4 +12,9 @@ public class TestController {
         return ("Hi!!!");
     }
 
+    @RequestMapping("/no")
+    public String sayNo(){
+        return ("NO!!!!");
+    }
+
 }
