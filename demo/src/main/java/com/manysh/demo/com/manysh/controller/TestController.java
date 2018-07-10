@@ -17,4 +17,9 @@ public class TestController {
         return ("NO!!!!");
     }
 
+    @RequestMapping("/ok")
+    public String sayOk(){
+        return ("NO!!!!");
+    }
+
 }
